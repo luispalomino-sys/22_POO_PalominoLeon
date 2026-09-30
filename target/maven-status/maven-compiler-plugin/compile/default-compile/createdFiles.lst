@@ -1,0 +1,5 @@
+com\proyectocuy\conexion\Conexion.class
+com\proyectocuy\model\Cuy.class
+com\proyectocuy\dao\CuyDAO.class
+com\proyectocuy\controller\CuyController.class
+com\proyectocuy\App.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="15.0" alignment="CENTER" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyectocuy.controller.CuyController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="GESTIÓN DE CUYES - PROYECTO CUY" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <TableView fx:id="tableCuyes" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="colRaza" text="Raza" prefWidth="150"/>
+            <TableColumn fx:id="colSexo" text="Sexo" prefWidth="100"/>
+            <TableColumn fx:id="colPeso" text="Peso (Kg)" prefWidth="100"/>
+            <TableColumn fx:id="colEstado" text="Estado" prefWidth="120"/>
+        </columns>
+    </TableView>
+</VBox>
